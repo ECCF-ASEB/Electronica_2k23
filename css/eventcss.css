@@ -56,9 +56,9 @@ nav a:hover {
   text-align: center; /* center the text in the column */
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 767px) {
   .column-container {
-    display: block;
+   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
