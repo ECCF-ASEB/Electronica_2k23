@@ -28,7 +28,7 @@ header {
   width: 100%;
 }
 @media (max-width: 767px) {
-    .container > header h1 {
+    header .main .mainhead h1 span  {
     font-size: 70px;
 }
   }
