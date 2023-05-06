@@ -28,6 +28,7 @@ header {
   text-align: center;
   width: 100%;
 }
+
 @media (max-width: 767px) {
     header .main .mainhead h1 span  {
     font-size: 40px;
@@ -50,9 +51,9 @@ header {
     width: 100%;
     height: auto;
   }
-}
 .container{
   height: 80%;
+}
 }
 
 @media only screen and (max-width: 600px) {
