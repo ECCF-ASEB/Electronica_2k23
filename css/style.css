@@ -17,6 +17,13 @@ padding-top: 150px;
 text-align: center;
 }
 
+@media (max-width: 767px) {
+  .main span {
+    font-size: 30px; /* adjust to your desired font size */
+  }
+}
+
+
 .container{
   height: 80%;
 }
