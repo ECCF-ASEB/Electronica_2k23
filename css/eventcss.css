@@ -21,14 +21,6 @@ nav a:hover {
   color: #426e8a;
 }
 
-@media (max-width: 767px) { 
-  .slide-container {
-    display: flex;
-     font-size: 10px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* Optional: Enables smooth scrolling on iOS */
-  }
 
 .row {
   display: flex;
@@ -40,8 +32,9 @@ nav a:hover {
 .column {
   flex: 1;
   display: flex;
-  margin-left : 10px;
-  mergin-right: 10px;
+  margin-top: 30px;
+  margin-right: : 20px;
+  margin-left: 90px;
   padding: 20px;
   background-color: #f1f1f1;
   border: 1px solid #ccc;
@@ -58,28 +51,10 @@ nav a:hover {
   /* height: 100vh; /* set the height of the container to the full viewport height */
 }
 
-
-  
-  .slide-container > * {
-    flex: 0 0 auto; /* Prevent items from shrinking and expanding */
-    width: 100%; /* Make each item occupy the full width of the container */
-  }
-  .column-container {
-    display: block;
-  }
- 
-  
+.column {
+  margin: 0 20px; /* add some spacing between columns */
+  text-align: center; /* center the text in the column */
 }
-
-
-
-
-
-
-
-}
-
-
 
 h1{
   font-family: 'Montserrat', sans-serif;
