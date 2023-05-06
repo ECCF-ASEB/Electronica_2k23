@@ -1,0 +1,233 @@
+nav{
+  width: 100%;
+  background-color: #000;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+  background-color: #000;
+}
+
+nav a:hover {
+  color: #426e8a;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  margin-top: 30px;
+  margin-right: : 20px;
+  margin-left: 90px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; /* set the height of the container to the full viewport height */
+}
+
+.column {
+  margin: 0 20px; /* add some spacing between columns */
+  text-align: center; /* center the text in the column */
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+
+/* Set the background image */
+body::before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/id/1397047849/photo/abstract-circuit-board-with-a-lot-of-micro-chips.jpg?b=1&s=170667a&w=0&k=20&c=RJ1PWMo5fcGl1XaTeIQSOA3NdtgRDKO6QJfV9XMa8XQ=);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* adjust the opacity as needed */
+  z-index: -1;
+}
+
+/* Animate the background */
+@keyframes background-scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.column{
+  width: 50%;
+  height: 50%;
+  background-color: #0A4D68;
+}
+
+.card {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+}
+
+.description {
+  display: none;
+  color: white;
+  margin-top: 20px;
+  font-family: Ubuntu;
+}
+
+.visible {
+  display: block;
+}
+
+.training-image{
+  display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.training-image:hover{
+  opacity: 0.5;
+}
+
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card-back {
+  transform: rotateY(0deg);
+}
+
+  .register{
+    color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 7px;
+  }
+
+
+.slide-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.slideshow-container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-text h2 {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.slide-text{
+  margin-top: 100px;
+
+  font-family: 'Marck Script', cursive;
+  font-size: 5rem;
+  color: white;
+
+}
+  .register-button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    background:  #fff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: #0B2447;
+  }
+
+  .register-button:hover {
+    background: #426e8a;
+    text-decoration: none;
+  }
+
+.contact{
+  padding-top: 5px;
+  background-color: white;
+  text-align: center;
+  opacity: 0.5;
+}
+.contact a {
+
+    margin-right: 2em; /* Adjust the value to increase or decrease the space */
+  }
+
+footer{
+  color: black;
+  padding: 2px;
+  text-align: center;
+}
