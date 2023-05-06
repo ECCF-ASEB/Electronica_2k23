@@ -66,9 +66,8 @@ nav a:hover {
   .training-image{
     width:100%;
   }
-  
   .column {
-    width: 100%;
+    width: 70%;
     margin-bottom: 30px;
     height: 70%;
   }
