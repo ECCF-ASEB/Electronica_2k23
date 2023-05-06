@@ -31,12 +31,9 @@ header {
      header {
     width: 90%;
   }
-    .mainhead h1 span {
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    color: #fff;
-
+    .mainhead h1 {
+    font-size: 2.5rem;
+  }
   }
 }
 
