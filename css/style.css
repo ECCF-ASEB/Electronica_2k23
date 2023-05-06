@@ -25,7 +25,7 @@ header {
   width: 100%;
 }
 @media (max-width: 767px) {
-  .main span {
+  .main {
     font-size: 10px; /* adjust to your desired font size */
   }
      h1 {
@@ -82,7 +82,7 @@ img{
 
 
 
-.mainhead h1 span {
+.mainhead h1  {
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
