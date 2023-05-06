@@ -12,6 +12,13 @@ body{
   float: right;
 }
 
+h1 {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .main{
 padding-top: 150px;
 text-align: center;
