@@ -27,7 +27,7 @@ header {
   text-align: center;
   width: 100%;
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     header .main .mainhead h1 span  {
     font-size: 70px;
 }
