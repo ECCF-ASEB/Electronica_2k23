@@ -51,6 +51,20 @@ nav a:hover {
   /* height: 100vh; /* set the height of the container to the full viewport height */
 }
 
+@media (max-width: 767px) { 
+  .slide-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Optional: Enables smooth scrolling on iOS */
+  }
+  
+  .slide-container > * {
+    flex: 0 0 auto; /* Prevent items from shrinking and expanding */
+    width: 100%; /* Make each item occupy the full width of the container */
+  }
+}
+
 .column {
   margin: 0 20px; /* add some spacing between columns */
   text-align: center; /* center the text in the column */
