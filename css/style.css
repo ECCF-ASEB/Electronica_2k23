@@ -12,10 +12,16 @@ body{
   float: right;
 }
 
-h1 {
-  text-align: center;
-}
 
+
+.mainhead h1  {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+
+  }
 .main{
 padding-top: 150px;
 text-align: center;
@@ -25,7 +31,7 @@ header {
   width: 100%;
 }
 @media (max-width: 767px) {
-     h1 {
+     .mainhead h1 {
     font-size: 20px; /* Adjust the font size as needed */
   }
   }
@@ -78,13 +84,7 @@ img{
 
 
 
-.mainhead h1  {
-    font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    color: #fff;
 
-  }
 
 
 
