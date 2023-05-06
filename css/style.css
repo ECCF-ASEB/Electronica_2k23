@@ -28,11 +28,8 @@ header {
   .main span {
     font-size: 10px; /* adjust to your desired font size */
   }
-     header {
-    width: 90%;
-  }
-    .mainhead h1 {
-    font-size: 2.5rem;
+     h1 {
+    font-size: 28px; /* Adjust the font size as needed */
   }
   }
 }
