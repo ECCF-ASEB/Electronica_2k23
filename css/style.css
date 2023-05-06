@@ -23,15 +23,17 @@ h1 {
 padding-top: 150px;
 text-align: center;
 }
-
+header {
+  text-align: center;
+  width: 100%;
+}
 @media (max-width: 767px) {
   .main span {
     font-size: 10px; /* adjust to your desired font size */
   }
-}
-
-header {
-  width: 100%;
+     header {
+    width: 90%;
+  }
 }
 
 
