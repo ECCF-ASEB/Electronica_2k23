@@ -55,6 +55,7 @@ nav a:hover {
   margin: 0 20px; /* add some spacing between columns */
   text-align: center; /* center the text in the column */
 }
+
 @media only screen and (max-width: 768px) {
   .column-container {
     display: block;
@@ -69,6 +70,7 @@ nav a:hover {
   .column {
     width: 100%;
     margin-bottom: 30px;
+    height: 70%;
   }
 }
 
