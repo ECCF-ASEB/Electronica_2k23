@@ -14,14 +14,11 @@ body{
 
 
 
-.container > header h1 { 
-    font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    color: #fff;
-    text-align: center;
+header .main .mainhead h1 span {
+  font-size: 100px;
+}
+ 
 
-  }
 .main{
 padding-top: 150px;
 text-align: center;
@@ -31,9 +28,9 @@ header {
   width: 100%;
 }
 @media (max-width: 767px) {
-     .container > header h1  {
-    font-size: 20px; /* Adjust the font size as needed */
-  }
+     header .main .mainhead h1 span {
+  font-size: 20px;
+}
   }
 
 
