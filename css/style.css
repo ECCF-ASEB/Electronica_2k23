@@ -28,16 +28,32 @@ header {
   text-align: center;
   width: 100%;
 }
-@media (max-width: 737px) {
+@media (max-width: 767px) {
     header .main .mainhead h1 span  {
     font-size: 50px;
 }
+    .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+         height: 80%;
   }
 
-
+     header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+     .cb-slideshow li img {
+    width: 100%;
+    height: auto;
+  }
+}
 .container{
   height: 80%;
 }
+    
 
 .logo{
 text-align: center;
