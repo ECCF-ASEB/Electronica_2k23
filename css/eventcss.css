@@ -58,7 +58,12 @@ nav a:hover {
 @media only screen and (max-width: 768px) {
   .column-container {
     display: block;
+    align-items: center;
   }
+  .training-image{
+    width:100%;
+  }
+  
   .column {
     width: 100%;
     margin-bottom: 30px;
