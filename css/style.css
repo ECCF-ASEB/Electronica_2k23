@@ -25,11 +25,9 @@ header {
   width: 100%;
 }
 @media (max-width: 767px) {
-  .main {
-    font-size: 10px; /* adjust to your desired font size */
-  }
+  
      h1 {
-    font-size: 28px; /* Adjust the font size as needed */
+    font-size: 8px; /* Adjust the font size as needed */
   }
   }
 }
