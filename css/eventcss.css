@@ -54,7 +54,7 @@ nav a:hover {
 @media (max-width: 767px) { 
   .slide-container {
     display: flex;
-     font-size: 14px;
+     font-size: 10px;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; /* Optional: Enables smooth scrolling on iOS */
@@ -65,13 +65,12 @@ nav a:hover {
     width: 100%; /* Make each item occupy the full width of the container */
   }
   .column-container {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
   .column {
     width: 100%;
-    padding: 0;
+  }
   
 }
 
